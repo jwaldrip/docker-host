@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable the Docker Socket for the API
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl enable docker-tcp.socket
+
+[Install]
+WantedBy=multi-user.target
