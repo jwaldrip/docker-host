@@ -16,5 +16,5 @@ $ git clone https://github.com/jwaldrip/docker-host.git
 $ cd docker-host
 $ vagrant up
 $ source .docker-host
-$ docker version
+$ docker run jwaldrip/host-up
 ```
